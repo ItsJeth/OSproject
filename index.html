@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">        
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CPU-Scheduling Simulator</title>
+</head>
+<body>
+    <h1>CPU-Scheduling</h1>
+    <h2>by: Group Niggas</h2>
+    <div id="inputContainer">
+        <h2>INPUT</h2>
+        <form action="#">
+            <div id="algoContainer">
+                <label for="algorithm">Select an Algorithm</label>
+                <select id="algorithm" title="Tap to select">
+                    <option value="" id="chooseOne">Choose Here</option>
+                    <option value="fcfs">First Come First Serve(FCFS)</option>
+                    <option value="sjf">Shortest Job First(SJF)</option>
+                    <option value="srtf">Shortest Remaining Time First(SRTF)</option>
+                    <option value="prio1">Priority(Non-Preemptive)</option>
+                    <option value="prio2">Priority(Preemptive)</option>
+                </select>
+            </div>  
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
